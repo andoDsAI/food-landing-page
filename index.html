@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sea Food</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<!-- MOBILE NAV -->
+		<div class="mb-nav">
+			<div class="mb-move-item"></div>
+			<div class="mb-nav-item active">
+				<a href="#home">
+					<i class="bx bxs-home"></i>
+				</a>
+			</div>
+			<div class="mb-nav-item">
+				<a href="#about">
+					<i class="bx bxs-wink-smile"></i>
+				</a>
+			</div>
+			<div class="mb-nav-item">
+				<a href="#food-menu-section">
+					<i class="bx bxs-food-menu"></i>
+				</a>
+			</div>
+		</div>
+		<!-- END MOBILE NAV -->
+		<!-- BACK TO TOP BTN -->
+		<a href="#home" class="back-to-top">
+			<i class="bx bxs-to-top"></i>
+		</a>
+		<!-- END BACK TO TOP BTN -->
+
+		<!-- TOP NAVIGATION -->
+		<div class="nav">
+			<div class="menu-wrap">
+				<a href="#home">
+					<div class="logo">Seafood</div>
+				</a>
+				<div class="menu h-xs">
+					<a href="#home">
+						<div class="menu-item active">Home</div>
+					</a>
+					<a href="#about">
+						<div class="menu-item">About</div>
+					</a>
+					<a href="#food-menu-section">
+						<div class="menu-item">Menu</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- END TOP NAVIGATION -->
+
+		<!-- SECTION HOME -->
+		<section
+			id="home"
+			class="fullheight align-items-center bg-img bg-img-fixed"
+			style="background-image: url(assets/home_background.png)"
+		>
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-xs-12">
+						<div class="slogan">
+							<h1 class="left-to-right play-on-scroll">Seafood</h1>
+							<p class="left-to-right play-on-scroll delay-2">
+								Hải sản tới từ Hạ Long, nơi cung cấp các loại hải sản tươi ngon và
+								chất lượng từ vùng biển này. Hãy khám phá ngay và thưởng thức những
+								món ăn tuyệt vời này tại website của chúng tôi!
+							</p>
+							<div class="left-to-right play-on-scroll delay-4">
+								<button>
+									<a href="#food-menu-section">Mua ngay</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SECTION HOME -->
+		<!-- SECION ABOUT -->
+		<section class="about fullheight align-items-center" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-7 h-xs">
+						<img
+							src="assets/about_background.jpeg"
+							alt=""
+							class="fullwidth left-to-right play-on-scroll"
+						/>
+					</div>
+					<div class="col-5 col-xs-12 align-items-center">
+						<div class="about-slogan right-to-left play-on-scroll">
+							<h3>
+								<span class="primary-color">We</span> create
+								<span class="primary-color">delicious</span> memories for
+								<span class="primary-color">you</span>
+							</h3>
+							<p>
+								Hải sản từ Hạ Long là một trong những nguồn cung cấp tốt nhất của
+								các loại hải sản tươi ngon và chất lượng cao trên thị trường, với
+								nhiều loại hải sản đa dạng và phong phú để lựa chọn từ. Những món ăn
+								từ hải sản từ Hạ Long sẽ đem đến cho bạn trải nghiệm đặc biệt và
+								không thể quên.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SECION ABOUT -->
+		<!-- FOOD MENU SECTION -->
+		<section
+			class="align-items-center bg-img bg-img-fixed"
+			id="food-menu-section"
+			style="background-image: url(assets/menu_background.jpeg)"
+		>
+			<div class="container">
+				<div class="food-menu">
+					<h1>Hôm nay <span class="primary-color">ăn</span> gì?</h1>
+					<p></p>
+					<div class="food-category">
+						<div class="zoom play-on-scroll">
+							<button class="active" data-food-type="all">Tất cả</button>
+						</div>
+						<div class="zoom play-on-scroll delay-2">
+							<button data-food-type="cha">Chả</button>
+						</div>
+						<div class="zoom play-on-scroll delay-4">
+							<button data-food-type="hai_san">Hải sản tươi sống</button>
+						</div>
+						<div class="zoom play-on-scroll delay-6">
+							<button data-food-type="ruoc">Ruốc</button>
+						</div>
+						<div class="zoom play-on-scroll delay-8">
+							<button data-food-type="ruou">Rượu</button>
+						</div>
+					</div>
+
+					<div class="food-item-wrap all">
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url(assets/cha_be_be_tom.jpg)"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả bề bề tôm</h3>
+										<span> 150,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/cha_be_be_tom_sa.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả bề bề tôm sả</h3>
+										<span> 150,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/cha_muc_gia_tay_xin.jpg');
+										"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả mực giã tay xịn</h3>
+										<span> 400,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/cha_muc_gia_tay_thuong.jpg');
+										"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả mực giã tay</h3>
+										<span> 250,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/cha_rau_muc.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả râu mực</h3>
+										<span> 150,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/cha_tom_xu_sa.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Chả tôm xù sả</h3>
+										<span> 130,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/cua_thuong.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Cua thường</h3>
+										<span> 500,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/cua_to.jpeg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Cua to</h3>
+										<span> 650,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/muc_mot_nang.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Mực một nắng</h3>
+										<span> 250,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item ruoc-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/ruoc_tom.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Ruốc tôm</h3>
+										<span> 170,000đ/0.5Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/tom_non_boc_san.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Tôm nõn bóc sẵn</h3>
+										<span> 300,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/tom_not.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Tôm nớt</h3>
+										<span> 400,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/tom_xu_thuong.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Tôm xú thường</h3>
+										<span> 450,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hai_san-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/tom_xu_thuong.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Tôm xú to</h3>
+										<span> 550,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item cha-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="background-image: url('assets/vien_xu.jpg')"
+									></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Viên xù</h3>
+										<span> 130,000đ/Kg </span>
+									</div>
+									<div class="cart-btn">
+										<i class="bx bx-cart-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END FOOD MENU SECTION -->
+		<!-- FOOTER SECTION -->
+		<section class="footer bg-img" style="background-image: url(assets/footer_background.jpeg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-xs-12">
+						<h1>Contact</h1>
+						<br />
+						<p>
+							Hãy liên hệ với tôi để được tư vấn và đặt hàng. Tôi sẽ cố gắng phục vụ
+							bạn tốt nhất có thể.
+						</p>
+						<br />
+						<p>Email: <a href="mailto:andoDsAI@gmail.com">andoDsAI@gmail.com</a></p>
+						<p>Phone: <a href="tel:+84 856 077 931">+84 856 077 931</a></p>
+						<p>Zalo: <a href="https://zalo.me/0856077931">Đỗ Quốc An</a></p>
+						<p>Facebook: <a href="https://facebook.com/andoDsAI">An Đỗ</a></p>
+					</div>
+					<div class="col-2 col-xs-12"></div>
+					<div class="col-4 col-xs-12">
+						<h1>Subscribe</h1>
+						<br />
+						<div class="input-group">
+							<input type="text" placeholder="Enter your email" />
+							<button>Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END FOOTER SECTION -->
+
+		<script src="index.js"></script>
+	</body>
+</html>
