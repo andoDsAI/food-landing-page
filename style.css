@@ -6,6 +6,7 @@
     --white: #ffffff;
 	--black: #000000;
 	--yellow: #2eb43d;
+	--blue: #2034cc;
 }
 
 * {
@@ -183,8 +184,26 @@ section {
 
 .about-slogan h3 {
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color: var(--grey);
+}
+
+.about-slogan p {
+	margin-bottom: 1rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+.about-slogan ul {
+	margin-left: 1rem;
+	text-align: left;
+}
+
+.about-slogan ul li a {
+	/* font-weight: bold; */
+	color: var(--primary-color);
+	/* set underline */
+	text-decoration: underline;
 }
 
 .primary-color {
@@ -410,6 +429,10 @@ section {
     display: block;
 }
 
+.food-item-wrap.kho>div.kho-type {
+    display: block;
+}
+
 .food-item-wrap.ruou>div.ruou-type {
     display: block;
 }
@@ -564,7 +587,7 @@ section {
     }
 
     .about {
-        background-image: url(assets/dan-gold-4_jhDO54BYg-unsplash.jpg);
+        background-image: url(assets/background/about_background.jpeg);
         background-attachment: fixed;
     }
 
